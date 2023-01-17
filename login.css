@@ -1,0 +1,135 @@
+*{
+		}
+  body{
+  background-color:#005;
+  height: 500px;
+		}  
+            .logo{
+            		overflow: hidden;
+                height: 300px;
+                width: 230px;
+                padding: 30px;
+              /*  max-resolution:res;rgin-left:400px;*/
+                background:#005;
+                margin-left:300px;
+                margin-top: 150px;
+                border-radius: 30px;
+                box-shadow: 0px 0px 100px #000,
+                            0px 0px 10px #000,
+                            0px 0px 10px #000;
+                            animation-name: border;
+                            animation-iteration-count: infinite;
+                            animation-timing-function:linear;
+                            animation-duration: 9s;
+            }
+            @keyframes border{ 
+                10%{
+                    box-shadow: 0px 10px 100px fuchsia,
+                                0px 10px 10px fuchsia,
+                                0px 0px 10px fuchsia;
+                }
+                20%{
+                    box-shadow: 10px 0px 100px slateblue,
+                                10px 0px 10px slateblue,
+                                10px 0px 10px slateblue;
+                }
+                30%{
+                    box-shadow: 0px 10px 100px white,
+                                0px 10px 10px white,
+                                0px 10px 10px white;
+                }
+                40%{
+                    box-shadow: 10px 0px 100px forestgreen,
+                                10px 0px 10px forestgreen,
+                                10px 0px 0px forestgreen;
+                }
+                50%{
+                    box-shadow: 0px 10px 100px chocolate,
+                                0px 10px 10px chocolate,
+                                0px 10px 10px chocolate;
+                }
+                60%{
+                    box-shadow: 10px 0px 100px rebeccapurple,
+                                10px 0px 10px rebeccapurple,
+                                10px 0px 10px rebeccapurple;
+                }
+                70%{
+                    box-shadow: 0px 10px 100px red,
+                                0px 10px 10px red,
+                                0px 10px 10px red;
+                }
+                80%{
+                    box-shadow: 10px 0px 100px hotpink,
+                                10px 0px 10px hotpink,
+                                10px 0px 10px hotpink;
+                                        }
+                90%{
+                    box-shadow: 0px 10px 100px darkcyan,
+                                0px 10px 10px darkcyan,
+                                0px 10px 10px darkcyan;
+                        
+                }
+                100%{
+                    box-shadow: 10px 0px 100px blue,
+                                10px 0px 10px blue,
+                                10px 0px 10px blue;
+              }
+            }
+            h1{
+                font-size: 33px;
+                color:#100;
+                letter-spacing:2 ;
+                margin-left:50px;
+                margin-top:-20;
+                padding: 20px;
+                text-shadow: 0px 0px 5px white;
+                animation-name: h1;
+                animation-iteration-count: infinite;
+                animation-duration: 9s;
+            }
+              @keyframes h1{ 
+                10%{color:white;}
+                20%{color:red;}
+                30%{color:blue;}
+                40%{color:darkcyan;}
+                50%{color:rebeccapurple;}
+                60%{color:fuchsia;}
+                70%{color:aqua;}
+                90%{color:fuchsia;}
+                100%{color:red;}
+            }
+
+            #e{
+                font-size: 25px; 
+                text-align:left ; 
+                margin-left: -30px;
+            }
+            .text{
+                margin-left: 100px;
+                margin-top: -30px;
+                color:darkcyan;
+            }
+            #nm{
+                outline: none;
+                padding: 10px;
+                margin-left: -10px;
+                margin-top:12px ;
+                background: blue;
+                border: none;
+                border-bottom: 2px solid #fff;
+                color: aqua;
+            }
+            #nm:hover{
+              background: #005;
+            }
+            #sub{
+                background:green;
+                margin: -70px 250px;
+                font-size: 30px;
+                box-shadow: 0px 0px 100px #000,
+                            0px 0px 10px #000,
+                            0px 0px 10px #000;
+               }
+               .nam{
+               		
+               }
